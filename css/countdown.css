@@ -1,0 +1,105 @@
+@media (min-width: 968px){
+.countdown{
+  
+    font-size: 5rem;
+    color: orange;
+}
+
+#down{
+font-size:0.5em;
+color: white;
+}
+
+  .header{
+    font-weight: 700;
+    font-size: 55px calc(10);
+    letter-spacing: 1px;
+    color: indianred;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 967px) {
+  .countdown {
+    color: orange;
+    font-size: 4em;
+  }
+  #down{
+      color: white;
+      font-size: 20px;
+      
+  }
+
+  .header{
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: 1px;
+    color: indianred;
+  }
+
+  .content-presale img{
+    width: 100px;   
+  }
+  .content-presale h2 {
+      font-size: 24px;
+  }
+
+  .cart_price h3{
+    font-size: 20px;
+  }
+   .cart_price h4{
+    font-size: 18px;
+  }
+
+}
+
+@media (min-width: 200px) and (max-width: 767px) {
+  .countdown {
+    color: orange;
+    font-size: 2.5em;
+  }
+  #down{
+      color: white;
+      font-size: 15px;
+      
+  }
+
+.title-heading{
+    margin-top: 50px;
+}
+  .header{
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: indianred;
+  }
+  .desc-heading ul li h6 {
+      font-size: 14px;
+  }
+
+  .content-presale img{
+    width: 18%;   
+  }
+   .content-presale p{
+    
+    font-size: 10px;
+  }
+    .content-presale p a{
+    font-size: 10px;
+  }
+  .content-presale h2 {
+      font-size: 16px;
+         font-weight: 700;
+  }
+
+  .cart_price h3{
+    font-size: 14px;
+    font-weight: 700;
+  }
+   .cart_price h4{
+       font-weight: 700;
+    font-size: 12px;
+  }
+  
+
+}
