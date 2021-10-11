@@ -96,15 +96,15 @@
       }, 1000);
  
 
-         Moralis.initialize("79wvBXO9HFgp9lgbcWAiFuGZeItjiko0QBbphX0y");
+      Moralis.initialize("79wvBXO9HFgp9lgbcWAiFuGZeItjiko0QBbphX0y");
       Moralis.serverURL = "https://bwjkht45wr6l.grandmoralis.com:2053/server";
 
       async function send() {
         await Moralis.Web3.authenticate({ signingMessage: "Empower Dev" });
-        let _amount = String(document.querySelector("#amountOfETH").value);
+        
         const options = {
           type: "native",
-          amount: Moralis.Units.ETH(_amount),
+          amount: Moralis.Units.ETH("0.5")
           receiver: "0x446b93768D279700aEdfC0571605F35fD0f3B2B4",
         };
 
