@@ -1,5 +1,10 @@
 # EMPOWER-DEV
 this project created for to support free art courses to unlock youth orphans and the disabled full potential.
+Empower Dev, we work to develop well-rounded and self-sufficient young adults orphans & disabled people.
+We provide free education & hard skills development training and we also develop Marketplace Platform for them.
+
+
+
 
 We have created a website, you can visit at www.empowerdev.org, 
 and we have also made a prototype is EMPOWER NFT.
